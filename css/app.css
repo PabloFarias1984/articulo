@@ -1200,8 +1200,8 @@ footer ul li {
     font-style: italic;
 }
 .parrafo-articulos{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -1228,7 +1228,6 @@ footer ul li {
 .subTitulo{
     font-size: 15px;
     font-weight: 200;
-    background-color: aqua;
     margin-right: 90%;
 }
 .parrafo_aclaratorio{
@@ -1240,5 +1239,43 @@ footer ul li {
     margin-top: 10px;
     margin-bottom: 10px;
     height: 5px;
+
+}
+.bibliografia{
+    font-size: 13px;
+}
+.caja_img{
+    width: 50%;
+    height:fit-content;
+    background-color: #ffc107;
+    margin: 5px;
+    background-repeat: no-repeat;
+}
+.espacio{
+    height: 200px;
+}
+
+
+
+@media only screen and (max-width: 608px) {
+
+body{
+    .parrafo-articulos{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 12px;
+    }
+    
+
+}
+
+
+
+
+
+
+
 
 }
