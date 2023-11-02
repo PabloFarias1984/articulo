@@ -144,8 +144,7 @@ ul.devided > li:last-child {
 }
 
 .logo {
-    font-size: 40px;
-    font-weight: 700;
+    
 }
 
 .mb-logo {
@@ -1184,9 +1183,11 @@ footer ul li {
     height: 300px;
     width: 100%;
     background-color: #c0392b;
-    background-image: url(../images/articulo_arte_tiempos_dificiles.jpeg);
+    background-image: url(../images/front_.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-position-x:left;
+    background-size: cover;
 }
 .parrafo_corto{
     padding-left: 10%;
@@ -1204,13 +1205,15 @@ footer ul li {
     margin-right: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
+    text-align: left;
 }
 .titulo-articulos{
     margin-top: 20px;
     margin-left: 50px;
     align-content: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
+    color: rgb(177, 6, 26);
 }
 .bloque{
     display: flex;
@@ -1226,9 +1229,10 @@ footer ul li {
 
 }
 .subTitulo{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 200;
     margin-right: 90%;
+    color: rgb(177, 6, 26);
 }
 .parrafo_aclaratorio{
     font-weight: lighter;
@@ -1248,15 +1252,31 @@ footer ul li {
     width: 50%;
     height:fit-content;
     background-color: #ffc107;
-    margin: 5px;
     background-repeat: no-repeat;
 }
 .espacio{
-    height: 200px;
+    height: 100px;
 }
+.superindice{
+    vertical-align: super;
+    font-size: 15px;
+}
+.perfil{
+    margin-bottom: 10px;
+    align-content: center;
+/*     width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-image: url(../images/perfil.png);
+    background-color: #c0392b;
+ */}
+.autor{
+    font-size: 12px;
+    color: rgb(177, 6, 26);
+    font-weight: 600;
+    margin-left: 2%;
 
-
-
+}
 @media only screen and (max-width: 608px) {
 
 body{
@@ -1267,7 +1287,39 @@ body{
         margin-bottom: 10%;
         font-size: 12px;
     }
+    .titulo-articulos{
+        margin-top: 20px;
+        margin-left: 10px;
+        align-content: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(177, 6, 26);
+    }
+    .subTitulo{
+        font-size: 12px;
+        font-weight: 700;
+        margin-right: 90%;
+        color: rgb(177, 6, 26);
+    }
+    .superindice{
+        vertical-align: super;
+        font-size: 7px;
+    }
+    .caja_img{
+        width: 100%;
+        height:fit-content;
+        background-color: #ffc107;
+        background-repeat: no-repeat;
+    }
+    .bibliografia{
+        font-size: 10px;
+    }
+    .sangria{
+        text-indent: 20px;
+        
+    }
     
+       
 
 }
 
