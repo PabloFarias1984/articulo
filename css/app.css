@@ -1183,11 +1183,25 @@ footer ul li {
     height: 300px;
     width: 100%;
     background-color: #c0392b;
-    background-image: url(../images/front_.jpg);
+    background-image: url(../images/articulos/05.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-position-x:left;
     background-size: cover;
+}
+.texto_tt{
+    display: flex;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-content: center;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+
+
 }
 .parrafo_corto{
     padding-left: 10%;
